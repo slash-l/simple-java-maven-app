@@ -6,6 +6,7 @@
 
     <groupId>cn.newtouch.mohaijiang</groupId>
     <artifactId>demo-java-springboot-maven</artifactId>
+    <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
