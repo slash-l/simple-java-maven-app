@@ -1,7 +1,7 @@
 FROM maven:3.3.3
 
 ADD pom.xml /tmp/build/
-RUN cd /tmp/build && mvn -q dependency:resolve
+RUN cd /tmp/build
 
 ADD src /tmp/build/src
         #构建应用
