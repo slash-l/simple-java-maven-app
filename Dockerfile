@@ -2,7 +2,7 @@ FROM maven:3.3.3
 
 RUN rm -rf /tmp/build
 RUN mkdir /tmp/build
-ADD pom.xml /tmp/build/
+ADD pom.xml /tmp/build
 RUN cd /tmp/build
 
 ADD src /tmp/build/src
